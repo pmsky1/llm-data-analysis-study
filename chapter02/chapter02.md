@@ -284,11 +284,15 @@ requirements.txt 재설치 후 pip check와 Notebook import 성공함
 
 ### 가장 중요했다고 생각한 환경 설정 1가지
 
-- 패키지를 설치한 Python과 Notebook에서 실행하는 Python을 같은 .venv로 맞추는 것임
+```text
+패키지를 설치한 Python과 Notebook에서 실행하는 Python을 같은 .venv로 맞추는 것임
+```
 
 ### 그 이유
 
-- 터미널과 VS Code의 Python이 다를 수 있어 실제 실행 경로를 확인하는 것이 중요함
+```text
+터미널과 VS Code의 Python이 다를 수 있어 실제 실행 경로를 확인하는 것이 중요함
+```
 
 ### 다음 Chapter에서 재사용할 환경 체크 3가지
 
@@ -298,8 +302,10 @@ requirements.txt 재설치 후 pip check와 Notebook import 성공함
 
 ### 현재 환경의 한계 또는 주의점
 
-- 새 터미널이나 Notebook에서는 가상환경과 커널을 다시 확인할 필요 있음
-- 데이터가 읽히는 것과 데이터 품질이 좋은 것은 다름
+```text
+새 터미널이나 Notebook에서는 가상환경과 커널을 다시 확인할 필요 있음
+데이터가 읽히는 것과 데이터 품질이 좋은 것은 다름
+```
 
 ---
 
