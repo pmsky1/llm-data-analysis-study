@@ -1,0 +1,38 @@
+# 로컬 AI 협업 지침 (과제 제출용 *.md는 제외하지 않음)
+AGENTS.md
+AGENTS.override.md
+COLLABORATION.md
+.codex/
+
+# 환경변수 및 인증 정보
+.env
+.env.*
+*.env
+*.env.*
+.envrc
+credentials.json
+token.json
+secrets/
+*.pem
+*.key
+
+# Python 가상환경과 캐시
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter 자동 저장 및 로컬 생성기
+.ipynb_checkpoints/
+generate_evidence.py
+
+# 운영체제 임시 파일
+.DS_Store
+._*
+Thumbs.db
+*.log
+*.swp
+*.swo
