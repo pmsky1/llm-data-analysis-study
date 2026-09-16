@@ -314,6 +314,6 @@ requirements.txt 재설치 후 pip check와 Notebook import 성공함
 - [x] 핵심 Evidence 4~7장을 첨부했습니다.
 - [x] 단순 캡처가 아니라 관찰과 판단을 작성했습니다.
 - [x] Secret/개인정보가 없습니다.
-- [ ] GitHub에서 이미지가 정상 표시됩니다.
-- [ ] 개인 저장소에 `chapter02/chapter02.md`를 업로드했습니다.
-- [ ] 저장소 URL이 아니라 최종 파일 URL을 제출합니다.
+- [x] GitHub에서 이미지가 정상 표시됩니다.
+- [x] 개인 저장소에 `chapter02/chapter02.md`를 업로드했습니다.
+- [x] 저장소 URL이 아니라 최종 파일 URL을 제출합니다.
