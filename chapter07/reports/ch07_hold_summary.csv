@@ -1,0 +1,8 @@
+hold_reason,rows,known_amount,amount_unknown
+customer_fk;,3,1769000.0,0
+customer_fk;product_fk;,1,290000.0,0
+order_fk;,2,922000.0,0
+product_fk;,1,76000.0,0
+quantity_unresolved_or_nonpositive;,4,-42000.0,2
+quantity_unresolved_or_nonpositive;customer_fk;,1,0.0,0
+unit_price_unresolved_or_nonpositive;,3,0.0,2

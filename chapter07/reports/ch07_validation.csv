@@ -1,0 +1,10 @@
+검증,expected,actual,passed
+카테고리 합계,141274000.0,141274000.0,True
+월별+날짜미상 합계,141274000.0,141274000.0,True
+상품 합계,141274000.0,141274000.0,True
+고객 합계,141274000.0,141274000.0,True
+주문 상태 건수,300.0,300.0,True
+clean orders_to_customers,0.0,0.0,True
+clean items_to_orders,0.0,0.0,True
+clean items_to_products,0.0,0.0,True
+기존+복구-보류 대사,141274000.0,141274000.0,True

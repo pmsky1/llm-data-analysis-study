@@ -1,0 +1,14 @@
+check,value
+raw_rows,765
+normalized_duplicates_removed,2
+unique_source_rows,763
+clean_rows,748
+held_rows,15
+quantity_recovered,3
+recovered_retained,3
+product_master_rows,100
+price_valid_rows,96
+price_held_rows,4
+orders_to_customers,0
+items_to_orders,0
+items_to_products,0
