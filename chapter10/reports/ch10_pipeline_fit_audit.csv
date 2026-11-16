@@ -1,0 +1,4 @@
+﻿model,fit_rows,numeric_imputer,scaler,categories,status
+Dummy Most Frequent,121,Train median verified,Train mean verified,Train values verified,PASS
+Logistic Regression,121,Train median verified,Train mean verified,Train values verified,PASS
+Random Forest,121,Train median verified,Train mean verified,Train values verified,PASS

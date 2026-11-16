@@ -1,0 +1,3 @@
+selection_item,value,selected_on,criterion
+model,Logistic Regression,validation,f1 → recall → precision
+threshold,0.6,validation,f1 → recall → precision → lower threshold

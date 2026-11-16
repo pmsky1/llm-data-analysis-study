@@ -1,0 +1,6 @@
+﻿scope,order_status,order_count,customer_count,detail_rows,total_quantity,order_amount
+eligible,cancelled,54,44,136,427.0,52759000.0
+eligible,completed,149,84,385,1178.0,123886000.0
+business_date_hold,cancelled,10,10,26,80.0,9422000.0
+business_date_hold,completed,35,23,89,264.0,25104000.0
+target_excluded,refunded,52,46,128,384.0,44439000.0
