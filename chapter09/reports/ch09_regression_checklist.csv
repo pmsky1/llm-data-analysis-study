@@ -1,0 +1,13 @@
+﻿check_item,status,evidence_or_limit
+예측 시점이 명확한가?,DEFINED,결제수단 선택 후 상세를 모델에 제공하기 전으로 정의함
+목표값과 목표값의 계산 재료를 입력에서 제외했는가?,VERIFIED,공식 6개 Feature만 사용하고 금지 Feature 겹침 0개를 검사함
+예측 이후에 알 수 있는 정보를 사용하지 않았는가?,ASSUMPTION_UNRESOLVED,결제수단 및 고객 속성의 실제 기록 시각은 미확인이고 가입일 이전 주문이 있음
+식별자를 일반 숫자 변수로 사용하지 않았는가?,VERIFIED,customer_id와 order_id는 관계 연결에만 사용하고 모델 입력에서 제외함
+전처리기가 훈련 데이터 안에서만 학습되는가?,CURRENT_DATA_ONLY,현재 나이 결측 및 변환 실패 0건이라 사전 중앙값 대체는 발생하지 않음 다른 데이터의 누수 안전성을 보장하지 않음
+같은 날짜가 train과 test에 동시에 포함되지 않는가?,VERIFIED,Final Test와 Train 날짜 분리 및 날짜 그룹 CV 5개 경계 검증함
+후보 모델 선택을 훈련 기간 TimeSeriesSplit에서만 수행했는가?,CORRECTIVE_RERUN,현재 후보 선택 지표는 Train 날짜 그룹 CV임 기존 Test를 이미 본 수정 평가라는 한계가 있음
+모델 선택을 고정한 뒤 test를 최종 평가에만 사용했는가?,REUSED_TEST,최초 실습에서는 선택 후 평가했으나 현재는 같은 Test의 재현 평가이며 새로운 독립 평가가 아님
+DummyRegressor 베이스라인과 비교했는가?,VERIFIED,Final Test는 DummyRegressor와 고정 Random Forest만 비교함
+"MAE, RMSE, R²를 올바르게 해석했는가?",VERIFIED,"Raw Decimal Target 및 직접 MAE, RMSE, R2 계산을 대조함"
+음수 R²와 낮은 성능을 숨기지 않았는가?,USE_ON_HOLD,Baseline보다 나쁜 성능과 음수 R2를 공개하고 현재 사용 보류로 판단함
+식별자가 포함된 내부 결과를 외부에 공개하지 않았는가?,PUBLIC_SCOPE_CHECKED,공개 목록의 컬럼을 검사하고 식별자 포함 내부 CSV는 공개 복사 대상에서 제외함
